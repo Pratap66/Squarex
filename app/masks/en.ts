@@ -126,7 +126,7 @@ export const EN_MASKS: BuiltinMask[] = [
   },
   
   {
-    avatar: "1f469-1f3fb",
+    avatar: "1f74",
     name: "Vincenzo Cassano",
     context: [
       {
