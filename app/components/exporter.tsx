@@ -554,8 +554,7 @@ export function ImagePreviewer(props: {
           <div>
             <div className={styles["main-title"]}>Squarex</div>
             <div className={styles["sub-title"]}>
-              github.com/Yidadaa/ChatGPT-Next-Web
-            </div>
+              squarex.netlify.app, Ai created by @Pratap         </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
               <span className={styles["icon-space"]}>&</span>
