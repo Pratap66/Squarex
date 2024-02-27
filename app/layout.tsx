@@ -11,15 +11,15 @@ const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
   title: "Squarex",
-  description: "Your personal ai assistant.",
+  description: "Your personal ai assistant. created by Pratap",
   viewport: {
     width: "device-width",
     initialScale: 1,
     maximumScale: 1,
   },
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#e7f8ff" },
-    { media: "(prefers-color-scheme: dark)", color: "#1b262a" },
+    { media: "(prefers-color-scheme: light)", color: "#f8e7ff" },
+    { media: "(prefers-color-scheme: dark)", color: "#241b2a" },
   ],
   appleWebApp: {
     title: "Squarex",
