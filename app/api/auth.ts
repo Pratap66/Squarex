@@ -47,7 +47,7 @@ export function auth(req: NextRequest, modelProvider: ModelProvider) {
   if (serverConfig.needCode && !serverConfig.codes.has(hashedCode) && !apiKey) {
     return {
       error: true,
-      msg: !accessCode ? "please enter your google studio key which is: and password: than confirm" : "wrong access code",
+      msg: !accessCode ? "Please enter your Google Studio key, which is: AIzaSyDG1JggY3q6yWd_N4036Gksu0Gf83E2Duc, and password: 5948327. Then click confirm, and you can use our AI." : "wrong access code",
     };
   }
 
