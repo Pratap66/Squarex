@@ -54,8 +54,7 @@ export function auth(req: NextRequest, modelProvider: ModelProvider) {
   if (serverConfig.hideUserApiKey && !!apiKey) {
     return {
       error: true,
-      msg: "Due to certain issues, the GPT model is unavailable. Please click the robot icon next to the emoji icon and select Gemini Pro from the model options.",
-  ",
+      msg: "you are not allowed to access with your own api key",
     };
   }
 
