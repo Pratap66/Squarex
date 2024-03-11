@@ -47,7 +47,7 @@ export function auth(req: NextRequest, modelProvider: ModelProvider) {
   if (serverConfig.needCode && !serverConfig.codes.has(hashedCode) && !apiKey) {
     return {
       error: true,
-      msg: !accessCode ? "Due to certain issues the GPT model is unavailable. Please click the robot icon next to the emoji icon and select Gemini Pro from the model options." : "wrong access code",
+      msg: !accessCode ? "empty access code" : "wrong access code",
     };
   }
 
